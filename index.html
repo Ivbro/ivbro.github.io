@@ -1,345 +1,611 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Thu Jan 19 2023 09:05:25 GMT+0000 (Coordinated Universal Time)  -->
+<html
+  data-wf-page="6391f529d7c4794a49d9ba74"
+  data-wf-site="6391f529d7c479c919d9ba73"
+>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="stylingv2.css" />
+    <meta charset="utf-8" />
+    <title>Ivo Leon - Portfolio</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+    <link
+      href="css/ivo-leon-portfolio.webflow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+          ],
+        },
+      });
+    </script>
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/webclip.png" rel="apple-touch-icon" />
   </head>
-
   <body>
-    <header class="mainheader" id="header">
-      <div class="logobox">
-        <img
-          src="images/Initials logo single white small.png"
-          alt="Personal logo"
-          width="20px"
-        />
-      </div>
-      <nav class="nav main-nav">
-        <ul>
-          <li><a href="#pagetop">Home</a></li>
-          <li><a href="#home">About me</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div class="testframe" id="pagetop">
-      <div class="testtext testframepart">
-        <div>
-          <img
-            src="images/Initials logo single small.png"
-            alt="personal logo"
-            width="350"
-          />
+    <div class="page-wrapper">
+      <div class="main-wrapper">
+        <div
+          data-animation="default"
+          data-collapse="medium"
+          data-duration="400"
+          data-easing="ease"
+          data-easing2="ease"
+          data-doc-height="1"
+          role="banner"
+          class="navbar w-nav"
+        >
+          <div class="nav-left">
+            <div
+              data-w-id="e98095fe-a6df-b236-cf0e-3cf211ae4aae"
+              class="nav-logo w-embed"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32.012"
+                height="48"
+                viewbox="0 0 32.012 48"
+              >
+                <g
+                  id="Group_87"
+                  data-name="Group 87"
+                  transform="translate(-8901 -77)"
+                >
+                  <path
+                    id="Path_6"
+                    data-name="Path 6"
+                    d="M98.027,22.75q4.022,6.653,8.042,13.308,1.053,1.745,2.1,3.491c.139.23.953,1.25.874,1.495-.094.29-1.2.137-1.493.137-1.257,0-2.539.075-3.794,0-.554-.032-.653-.444-.914-.9q-.535-.927-1.071-1.852c-2.6-4.482-5.171-8.982-7.831-13.427-.231-.385-.337-.823-.815-.889a15.284,15.284,0,0,0-2.019,0h-4c-.6,0-1.195.014-1.791,0s-.456-.285-.456-.836q0-.943,0-1.885c0-.3-.172-1.25.053-1.475.2-.2,1.089-.055,1.346-.055H88.4c1.3,0,2.605.007,3.907-.012,2.276-.032,4.81-.47,6.577-2.018a7.769,7.769,0,0,0,2.272-6.009,6.9,6.9,0,0,0-2.53-5.8C96.719,4.675,94.1,4.422,91.822,4.358c-1.295-.036-2.59.009-3.885,0-.675-.005-1.349-.018-2.024-.013-.615,0-1.04.186-1.053-.529-.011-.62,0-1.242,0-1.862,0-.34-.2-1.573.047-1.828.23-.239,1.274-.062,1.591-.062l2,0a52.6,52.6,0,0,1,7.8.344,13.249,13.249,0,0,1,6.235,2.49,9.661,9.661,0,0,1,3.394,5.746c.973,4.722-.362,9.735-4.534,12.445a21.826,21.826,0,0,1-3.108,1.537c-.075.033-.148.071-.261.126"
+                    transform="translate(8823.959 77)"
+                    fill="CurrentColor"
+                  ></path>
+                  <path
+                    id="Path_7"
+                    data-name="Path 7"
+                    d="M0,21.2V1.165A2.257,2.257,0,0,0,0,.914C-.019.719.071.671.254.672c1.3.006,2.6,0,3.907,0,.175,0,.351.007.525,0s.237.067.228.23c0,.068,0,.137,0,.206V41.32c0,.462,0,.463-.467.463H.335c-.321,0-.33-.011-.33-.337Q0,31.324,0,21.2"
+                    transform="translate(8901 76.39)"
+                    fill="CurrentColor"
+                  ></path>
+                  <path
+                    id="Path_8"
+                    data-name="Path 8"
+                    d="M.009,480.562c0-.118,0-.2,0-.283q0-1.93,0-3.861c0-.349.005-.355.36-.354q7.811.019,15.622.038,7.766.012,15.532.009c.061,0,.122,0,.183,0,.256.008.307.055.308.313,0,.868,0,1.736,0,2.6,0,.426,0,.853,0,1.279,0,.18-.054.277-.249.253a1.29,1.29,0,0,0-.16,0H.009Z"
+                    transform="translate(8900.992 -355.566)"
+                    fill="CurrentColor"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <nav role="navigation" class="nav-menu w-nav-menu">
+            <a
+              href="index.html"
+              aria-current="page"
+              class="nav-link w-inline-block w--current"
+            >
+              <div class="nav-top text-size-regular text-color-black menu-open">
+                Home
+              </div>
+            </a>
+            <a href="#section-about-me" class="nav-link w-inline-block">
+              <div class="nav-top text-size-regular text-color-black menu-open">
+                About me
+              </div>
+            </a>
+            <a href="#section-projects" class="nav-link w-inline-block">
+              <div class="nav-top text-size-regular text-color-black menu-open">
+                Projects
+              </div>
+            </a>
+            <a href="#section-development" class="nav-link w-inline-block">
+              <div class="nav-top text-size-regular text-color-black menu-open">
+                Development
+              </div>
+            </a>
+          </nav>
+          <div class="nav-right"></div>
+          <div class="menu-button w-nav-button">
+            <div class="w-icon-nav-menu"></div>
+          </div>
         </div>
-        <div class="slide-right">
-          <h1>Ivo Léon</h1>
-        </div>
-      </div>
-      <div class="testimg testframepart">
-        <img
-          src="images/website profile photo cropped.png"
-          alt="Profile picture"
-        />
+        <section id="section-hero" class="section-hero">
+          <div class="padding-global">
+            <div class="padding-section-medium">
+              <div class="hero-content-wrapper">
+                <div
+                  id="w-node-_605a2b62-0780-afb2-e8d8-3588fdff3d51-49d9ba74"
+                  class="hero-content-left"
+                >
+                  <div
+                    id="w-node-_5230ad31-1626-7649-1f9b-350f4553e7ef-49d9ba74"
+                    class="hero-text-wrapper"
+                  >
+                    <h1 class="heading-style-h1 text-color-black">
+                      Graduation portfolio
+                    </h1>
+                    <div class="heading-style-h2 text-color-orange">
+                      Ivo Leon
+                    </div>
+                  </div>
+                  <a
+                    href="#section-about-me"
+                    class="arrow-circle w-inline-block"
+                  >
+                    <div class="html-embed w-embed">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24.047"
+                        height="24.047"
+                        viewbox="0 0 24.047 24.047"
+                      >
+                        <path
+                          id="Icon_ionic-md-arrow-up"
+                          data-name="Icon ionic-md-arrow-up"
+                          d="M19.5,30.023V11.763l8.417,8.417,2.1-2.18L18,5.977,5.977,18l2.1,2.1L16.5,11.763v18.26Z"
+                          transform="translate(30.023 30.023) rotate(180)"
+                          fill="#ee8350"
+                        ></path>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  id="w-node-ac170018-5169-4b6e-aac0-0f8277395dea-49d9ba74"
+                  class="hero-content-right"
+                >
+                  <div
+                    id="w-node-cce73cca-c2a3-6a9c-a702-28422ce45a0d-49d9ba74"
+                    class="hero-image-wrapper"
+                  >
+                    <img
+                      src="images/Ivo-Hero-Foto.png"
+                      loading="lazy"
+                      alt=""
+                      class="hero-image"
+                    />
+                    <div class="hero-image_offset background-color-black"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="section-about-me"
+          class="section-about-me background-color-orange"
+        >
+          <div class="padding-section-medium">
+            <div class="padding-global">
+              <div class="about-me-wrapper">
+                <div class="about-me-title-wrap">
+                  <h2 class="heading-style-h2 text-color-grey">About me</h2>
+                </div>
+                <div class="about-me-text-wrap">
+                  <div
+                    id="w-node-_296f9619-9bb7-4521-a695-5628148525f8-49d9ba74"
+                    class="about-me-text-1"
+                  >
+                    <div class="text-size-regular text-color-grey">
+                      Hi, I am Ivo Léon, BSc Industrial Design graduate and
+                      current MSc ID student at Eindhoven University of
+                      Technology. Furthermore, I am a designer specializing in
+                      concept development and evaluation, through product design
+                      and user research.<br /><br />I focus on creating value
+                      through the design of impactful products. Through a
+                      user-centered approach and a dedication to quality I aim
+                      to design physical electronic products that provide great
+                      value for the end-user. With a critical mindset and
+                      holistic view, I apply my broad knowledge to be an
+                      effective designer.<br />‍
+                    </div>
+                    <a
+                      id="w-node-_8f2d26d2-1e94-151d-682c-c91b3248d787-49d9ba74"
+                      href="development.html#Vision"
+                      class="button-style about-me w-inline-block"
+                    >
+                      <div class="link-text text-color-grey">
+                        Read more about my vision
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="w-node-_5fd09dd3-6682-7c17-dab7-e7c56932db5f-49d9ba74"
+                    class="about-me-text-2"
+                  >
+                    <div
+                      id="w-node-_93843493-cc19-e6c2-b77d-0cf2427f4b13-49d9ba74"
+                      class="text-size-regular text-color-grey"
+                    >
+                      My main focus is the concept development and evaluation
+                      stage of the design process. Through technical skills I am
+                      able to design and realize prototypes and work together
+                      with engineering experts. I involving users all throughout
+                      the process and conduct structured user research and
+                      evaluation. This aims to ensure that the envisioned value
+                      matches their needs and wishes and generate insights to
+                      steer future development.<br /><br />
+                    </div>
+                    <a
+                      href="development.html#Professional-Identity"
+                      class="button-style about-me w-inline-block"
+                    >
+                      <div class="link-text text-color-grey">
+                        Read more about my Professional Identity
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-me-big-text-wrapper">
+              <div class="about-me-big-text-center">
+                <div class="about-me_keywords text-color-grey">
+                  Knowledge - Skills - Mindset
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="section-projects" class="section-projects">
+          <div class="padding-section-medium">
+            <div class="padding-global">
+              <div class="projects-wrapper">
+                <div class="projects-title-wrapper">
+                  <h2 class="heading-style-h2 text-color-black">Projects</h2>
+                </div>
+                <div class="projects-grid">
+                  <div
+                    id="w-node-_8c6d717b-798d-9d7e-fdc8-03a59ebb932d-49d9ba74"
+                    class="project-content-wrapper"
+                  >
+                    <div class="project-content-title">
+                      <h3 class="heading-style-h3">Calmscape</h3>
+                    </div>
+                    <p class="text-size-regular">
+                      A design project about a dynamic artwork in hospital
+                      waiting rooms. Through subtle movement it distracts and
+                      relaxes patients in busy and chaotic emergency rooms.
+                    </p>
+                    <a
+                      href="calmscape.html"
+                      class="project-button w-inline-block"
+                    >
+                      <div class="link-text text-color-black">View project</div>
+                    </a>
+                    <div class="project-image-wrapper">
+                      <img
+                        src="images/calmscape-scene.webp"
+                        loading="lazy"
+                        sizes="(max-width: 479px) 87vw, (max-width: 767px) 80vw, (max-width: 991px) 37vw, 48vw"
+                        srcset="
+                          images/calmscape-scene-p-500.webp   500w,
+                          images/calmscape-scene-p-800.webp   800w,
+                          images/calmscape-scene-p-1080.webp 1080w,
+                          images/calmscape-scene-p-1600.webp 1600w,
+                          images/calmscape-scene.webp        1885w
+                        "
+                        alt=""
+                        class="project-image"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    id="w-node-c2cb7d89-91ec-a295-44d2-445822a50618-49d9ba74"
+                    class="project-content-wrapper"
+                  >
+                    <div class="project-content-title">
+                      <h3 class="heading-style-h3">
+                        Evaluating Stress Management Practices
+                      </h3>
+                    </div>
+                    <p class="text-size-regular">
+                      A research project about the evaluation of stress
+                      management practices. It compares two methods of creating
+                      stress awareness and stimulating stress management
+                      technique usage.
+                    </p>
+                    <a
+                      href="stress-management-research.html"
+                      class="project-button w-inline-block"
+                    >
+                      <div class="link-text text-color-black">View project</div>
+                    </a>
+                    <div class="project-image-wrapper">
+                      <img
+                        src="images/Research-results-2.webp"
+                        loading="lazy"
+                        sizes="(max-width: 479px) 87vw, (max-width: 767px) 80vw, (max-width: 991px) 37vw, 48vw"
+                        srcset="
+                          images/Research-results-2-p-500.webp   500w,
+                          images/Research-results-2-p-800.webp   800w,
+                          images/Research-results-2-p-1080.webp 1080w,
+                          images/Research-results-2.webp        1134w
+                        "
+                        alt=""
+                        class="project-image"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    id="w-node-bf78a7d1-c0c3-9f91-3f8a-f1a7295e6d81-49d9ba74"
+                    class="project-content-wrapper"
+                  >
+                    <div class="project-content-title">
+                      <h3 class="heading-style-h3">
+                        Ludis: Increasing Fitness Guidance
+                      </h3>
+                    </div>
+                    <p class="text-size-regular">
+                      A design project that revolves around increasing fitness
+                      guidance. It introduces a system that allows users to call
+                      over trainers, lowering the barriers for asking for help.
+                    </p>
+                    <a href="ludis.html" class="project-button w-inline-block">
+                      <div class="link-text text-color-black">View project</div>
+                    </a>
+                    <div class="project-image-wrapper">
+                      <img
+                        src="images/Ludis-box.webp"
+                        loading="lazy"
+                        sizes="(max-width: 479px) 87vw, (max-width: 767px) 80vw, (max-width: 991px) 37vw, 48vw"
+                        srcset="
+                          images/Ludis-box-p-500.webp   500w,
+                          images/Ludis-box-p-800.webp   800w,
+                          images/Ludis-box-p-1080.webp 1080w,
+                          images/Ludis-box.webp        1200w
+                        "
+                        alt=""
+                        class="project-image"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    id="w-node-_1f0c693a-5a6d-1799-ebf8-43279140dcb7-49d9ba74"
+                    class="project-content-wrapper"
+                  >
+                    <div class="project-content-title">
+                      <h3 class="heading-style-h3">
+                        LSG ATOM: A modular build kit for sensing devices
+                      </h3>
+                    </div>
+                    <p class="text-size-regular">
+                      A design project about the design of a modular build kit
+                      for sensing devices. The plug-and-play system allows users
+                      to create and deploy sensing devices for rapid prototyping
+                      and evaluation.
+                    </p>
+                    <a href="atom.html" class="project-button w-inline-block">
+                      <div class="link-text text-color-black">View project</div>
+                    </a>
+                    <div class="project-image-wrapper">
+                      <img
+                        src="images/ATOM-basic-casing.webp"
+                        loading="lazy"
+                        sizes="(max-width: 479px) 87vw, (max-width: 767px) 80vw, (max-width: 991px) 37vw, 48vw"
+                        srcset="
+                          images/ATOM-basic-casing-p-500.webp   500w,
+                          images/ATOM-basic-casing-p-800.webp   800w,
+                          images/ATOM-basic-casing-p-1080.webp 1080w,
+                          images/ATOM-basic-casing-p-1600.webp 1600w,
+                          images/ATOM-basic-casing.webp        1776w
+                        "
+                        alt=""
+                        class="project-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="section-development"
+          class="section-development background-color-black"
+        >
+          <div class="padding-section-medium">
+            <div class="padding-global">
+              <div class="development-wrapper">
+                <div class="development-title-wrapper">
+                  <h2 class="heading-style-h2 text-color-grey">Development</h2>
+                  <a
+                    href="development.html"
+                    class="button-style w-inline-block"
+                  >
+                    <div class="link-text text-color-grey">Read all</div>
+                  </a>
+                </div>
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="swiper-image-wrap"></div>
+                      <div class="swiper-text-wrap">
+                        <h3 class="slide-title heading-style-h3">
+                          Vision<span
+                            class="slash text-color-orange heading-style-h3"
+                            >/</span
+                          >
+                        </h3>
+                        <p class="slide-paragraph text-size-regular">
+                          Over the course of my studies I have developed a
+                          vision on the future of design.
+                        </p>
+                        <a
+                          href="development.html#Vision"
+                          class="button-style w-inline-block"
+                        >
+                          <div class="link-text text-color-grey">Read more</div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-image-wrap"></div>
+                      <div class="swiper-text-wrap">
+                        <h3 class="slide-title heading-style-h3">
+                          Professional Identity<span
+                            class="slash text-color-orange heading-style-h3"
+                            >/</span
+                          >
+                        </h3>
+                        <p class="slide-paragraph text-size-regular">
+                          Through my experience I have developed my Professional
+                          Identity, describing who I am as a designer.
+                        </p>
+                        <a
+                          href="development.html#Professional-Identity"
+                          class="button-style w-inline-block"
+                        >
+                          <div class="link-text text-color-grey">Read more</div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-image-wrap"></div>
+                      <div class="swiper-text-wrap">
+                        <h3 class="slide-title heading-style-h3">
+                          Past<span
+                            class="slash text-color-orange heading-style-h3"
+                            >/</span
+                          >
+                        </h3>
+                        <p class="slide-paragraph text-size-regular">
+                          This describes my previous experience with designing,
+                          through my projects and courses.
+                        </p>
+                        <a
+                          href="development.html#Past"
+                          class="button-style w-inline-block"
+                        >
+                          <div class="link-text text-color-grey">Read more</div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-image-wrap"></div>
+                      <div class="swiper-text-wrap">
+                        <h3 class="slide-title heading-style-h3">
+                          Present<span
+                            class="slash text-color-orange heading-style-h3"
+                            >/</span
+                          >
+                        </h3>
+                        <p class="slide-paragraph text-size-regular">
+                          This describes my current level of development:
+                          Different skills and expertise areas and how they are
+                          integrated within my FMP.
+                        </p>
+                        <a
+                          href="development.html#Present"
+                          class="button-style w-inline-block"
+                        >
+                          <div class="link-text text-color-grey">Read more</div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-image-wrap"></div>
+                      <div class="swiper-text-wrap">
+                        <h3 class="slide-title heading-style-h3">
+                          Future<span
+                            class="slash text-color-orange heading-style-h3"
+                            >/</span
+                          >
+                        </h3>
+                        <p class="slide-paragraph text-size-regular">
+                          Here I describe what my future plans and goals are
+                          after graduation.
+                        </p>
+                        <a
+                          href="development.html#Future"
+                          class="button-style w-inline-block"
+                        >
+                          <div class="link-text text-color-grey">Read more</div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <footer class="footer">
+                  <div class="breakline background-color-grey-2"></div>
+                  <div class="footer-text-wrapper">
+                    <div class="footer-text-left">
+                      <div class="footer-text text-size-regular">
+                        © Graduation Portfolio - Ivo Léon
+                      </div>
+                    </div>
+                    <div class="footer-text-right">
+                      <a
+                        href="mailto:ivo.leon15@gmail.com"
+                        class="footer-link text-size-regular text-color-grey _2nd"
+                        >Email</a
+                      >
+                      <a
+                        href="https://www.linkedin.com/in/ivo-l%C3%A9on-678616176/"
+                        class="footer-link text-size-regular text-color-grey"
+                        >LinkedIn</a
+                      >
+                    </div>
+                  </div>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
-
-    <section class="container" id="home">
-      <div class="namebox">
-        <h2 class="name">Ivo Léon</h2>
-        <h2 class="undertitle">Industrial Designer</h2>
-      </div>
-      <div>
-        <img
-          id="pillarimage"
-          style="float: left"
-          src="images/Design pillars small.png"
-          alt="Pillars of design"
-          width="200px"
-        />
-      </div>
-      <div class="textblock introtext">
-        Hi, I am Ivo Léon, BSc Industrial Design graduate and current MSc ID
-        student at Eindhoven University of Technology. Furthermore, I am a
-        designer specializing user research & evaluation, as well as designing
-        and prototyping both physical and digital products.
-      </div>
-      <div class="textblock introtext">
-        As a designer I aim to create impactful products and services that match
-        innovation to user needs and requirements. I find it important to design
-        with vision and create products that provide value to the end user. I do
-        this through three important principles: Empathy, Curiosity and
-        Flexibility. Empathy helps to understand the user and create meaningful
-        products. Curiosity helps to take a deep dive into the design and
-        context, to find out what is truly important when designing a product or
-        system. Flexibility helps to adapt to the often changing landscape of
-        design and utilize design processes that fit the specific project. These
-        principles, among many other smaller ones, guide my design activities.
-      </div>
-      <div class="textblock introtext">
-        During the past 4+ years of my study I have completed a wide range of
-        design projects, of which a selection is presented below. Please take a
-        look and feel free to contact me in case of questions or interest.
-      </div>
-    </section>
-
-    <section class="container" id="projects">
-      <h2>Projects</h2>
-      <div class="projectlist">
-        <ul>
-          <li><a href="#artificialwomb">Artificial Womb</a></li>
-          <li><a href="#calmscape">Calmscape</a></li>
-          <li><a href="#stressmanagement">Stress Management Research</a></li>
-          <li><a href="#ambientnotificator">Ambient Notificator</a></li>
-          <li><a href="#gyminteraction">Increasing Fitness Guidance</a></li>
-        </ul>
-      </div>
-
-      <div id="artificialwomb">
-        <h3>Artifical Womb</h3>
-        <div class="textsection">
-          <div class="textblock">
-            The Artificial Womb is a life support system for extreme premature
-            babies. When babies are born 24 to 28 weeks into the pregnancy their
-            chance of survival is very low. Therefore the artificial womb aims
-            to replace neonatal incubators and mimic the conditions in the
-            uterus, to provide the highest survival rate and minimize negative
-            side effects of premature birth.
-          </div>
-          <div class="textblock">
-            The starting point for this project was a range of research papers
-            proving that the artificial womb was possible, which detailed the
-            requirements. This information, together with expert interviews and
-            user research was translated to the first real design of the
-            artificial womb, which was in turn improved over multiple
-            iterations.
-          </div>
-          <div class="textblock">
-            The goal of this project was not to design a product that is
-            market-ready, due to the sheer complexity of the subject. However,
-            it embodies the current knowledge and provides a concept-design that
-            functions as a stepping stone for further development and research.
-          </div>
-        </div>
-        <div class="imageblock">
-          <a href="images/Size reference.png" target="_blank">
-            <img
-              src="images/Size reference.png"
-              alt="Concept render"
-              width="100%"
-            />
-          </a>
-
-          <a href="images/PLS v2.png" target="_blank">
-            <img
-              src="images/PLS v2.png"
-              alt="Explanatory image"
-              width="35.8%"
-            />
-          </a>
-
-          <a href="images/PLS v2 tubing.png" target="_blank">
-            <img
-              src="images/PLS v2 tubing.png"
-              alt="Zoomed-in image"
-              width="63.7%"
-            />
-          </a>
-        </div>
-      </div>
-      <div id="calmscape">
-        <h3>Calmscape</h3>
-        <div class="textsection">
-          <div class="textblock">
-            Emergency rooms in hospitals are often busy & chaotic places. Most
-            people are in pain or discomfort and want to be helped as quickly as
-            possible. However, even though some conditions are very unpleasant,
-            not all require immediate attention. Combined with limited staff and
-            capacity, patients are often waiting for extended times, which is
-            often very stressful. This is why we have created the Calmscape.
-          </div>
-        </div>
-        <div class="imageblock">
-          <a href="images/calmscape scene.png" target="_blank"
-            ><img
-              src="images/calmscape scene.png"
-              alt="Calmscape in context"
-              width="100%"
-          /></a>
-        </div>
-
-        <div class="textsection">
-          <div class="textblock">
-            The Calmscape is a physical artwork that is to be placed in waiting
-            rooms of hospitals. Scenes of natures are shown to help calm people
-            and actuators within the design allow the canvas to move subtly.
-            These small movements help to draw attention to the artwork and
-            maintain it, distracting the patients from their discomfort and
-            other patients waiting in the emergency room. Testing with the
-            Calmscape has shown that it both has a relaxing and distracting
-            effect on users.
-          </div>
-        </div>
-        <video width="100%" controls loop>
-          <source src="images/Calmscape vid.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-
-      <div id="stressmanagement">
-        <h3>Stress Management Research</h3>
-        <div class="textsection">
-          <div class="textblock">
-            This research project looked at stress management practices. Stress
-            can have large effect on both mental and physical health. Extensive
-            research has shown that a wide range of health conditions can arise
-            from stress, specifically chronic stress. One possible complication
-            is Cardio Vascular Disease (CVD). CVD patients are especially
-            vulnerable to reoccurring complications and therefore effective
-            stress management is vitally important. Based on this a large scale
-            research project at the TU/e is being conducted, focusing on
-            monitoring different lifestyle factors of CVD patients, including
-            stress levels.
-          </div>
-          <div class="textblock">
-            From this my own research project has stemmed. The platform itself
-            only provides insight into the stress levels of patients and does
-            not provide any guidance. At the same time a large amount of stress
-            management techniques exist. This prompted me to compare stress
-            awareness and stress management technique usage between 2 groups:
-            one group that only measured their stress levels and received this
-            as feedback and the second group was stimulated to engage in stress
-            management based on behavior change models.
-          </div>
-          <div class="textblock">
-            To conduct this research I have created a digital prototype in the
-            form a website, which was both able to provide the participants with
-            the measurements and persuasive messages as well allow them to
-            record the data that I needed to analyze the results. The results
-            show to that intervention usage did not significantly increase for
-            both groups. However, the stress awareness did significantly
-            increase for the measurement group.
-          </div>
-        </div>
-        <img
-          src="images/graph 1.png"
-          alt="Stress awareness graph"
-          width="49.4%"
-        />
-        <img
-          src="images/graph 2.png"
-          alt="Intervention usage graph"
-          width="49.5%"
-        />
-        <div class="downloadlinks">
-          <div>
-            <a href="/images/M1.2 Paper Ivo Leon short.pdf" download>
-              Research paper download
-            </a>
-          </div>
-          <div>
-            <a href="/images/M1.2 Research poster Ivo Leon.pdf" download>
-              Research poster download
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="ambientnotificator">
-        <h3>Ambient Notificator</h3>
-        <div class="textsection">
-          <div class="textblock">
-            During one of my project courses we have designed a new way to
-            display notifications, with the aim to make digital connectivity
-            less intrusive. The design process was mainly focused on using
-            crowdsourcing platforms, online communities and online workers to
-            aid in the creation of the design, as these can be very powerful
-            tools.
-          </div>
-          <div class="textblock">
-            The project started with a need-finding phase, where online workers
-            (through Prolific & M-Turk) were asked to complete a survey to study
-            the problems and opportunities related to the subject of
-            notifications and digital connectivity. Based on the results a new
-            group of workers was asked to come up with concepts. These concepts
-            were then filtered by us, and presented for online evaluation. The
-            best received concept was then further iterated upon by us, to
-            finally be sent to a digital artist to visualize the concept. The
-            final concept took the form of a painting/artwork, which would
-            change scene when the user would receive a notification. Albeit it
-            being a luxury item, it provides a subtle way to display
-            notifications, without interrupting the user and maintaining privacy
-            of the content of the notifications.
-          </div>
-        </div>
-        <img
-          src="images/LivingRoom2Day.png"
-          alt="Ambient notificator day scene"
-          width="49.4%"
-        />
-        <img
-          src="images/LivingRoomNight.png"
-          alt="Ambient notificator night scene"
-          width="49.5%"
-        />
-      </div>
-      <div id="gyminteraction">
-        <h3>Increasing Fitness Guidance</h3>
-        <div class="textsection">
-          <div class="textblock">
-            The last project that I have completed targets people that practice
-            fitness within a gym. Fitness has a range of both physical and
-            mental benefits and is very widely practiced with the industry
-            growing larger every day. With the low entry barrier, due to low
-            costs and abundant gyms available it is practiced by many.
-          </div>
-          <div class="textblock">
-            However, there are also problems that arise within this context.
-            Based on explorative interviews several themes arose, including
-            problems with intimidation, occupation of equipment, form, beginner
-            guidance and motivation. Further analysis through user journey
-            mapping and a Co-Design session has steered the project towards a
-            focus on guiding people that just start out with fitness. It was
-            shown that a barrier is often experienced when asking for help,
-            especially with beginners. Therefore a technical prototype was
-            developed, designed specifically for easy integration in the gym
-            with the aim of evaluation. The system consists of a small box with
-            a button, which can be used to ask for assistance. It is linked via
-            Wifi to a website that notifies the trainers. The system is focused
-            on a simplistic external design, in order to make it easy to use and
-            decrease the barrier for asking trainers for help as much as
-            possible.
-          </div>
-        </div>
-        <img src="images/Ludis box.png" alt="Ludis box" width="100%" />
-      </div>
-    </section>
-
-    <footer class="main-footer">
-      <div class="main-footer-container">
-        <div class="footertext copyright">
-          &copy; Ivo Léon - Design & Programming - 2021
-        </div>
-        <ul class="nav footer-nav">
-          <li>
-            <a target="_blank" href="mailto: ivo.leon15@gmai.com"
-              ><img src="images/mail logo.png" alt="Email link" height="27px"
-            /></a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/ivo-l%C3%A9on-678616176/"
-              ><img
-                src="images/Linkinlogo white.png"
-                alt="Linked-in"
-                height="40px"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6391f529d7c479c919d9ba73"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiperOptions = {
+        spaceBetween: 32,
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 640px
+          768: {
+            slidesPerView: 3.5,
+          },
+        },
+      };
+      var swiper = new Swiper(".swiper", swiperOptions);
+    </script>
   </body>
 </html>
